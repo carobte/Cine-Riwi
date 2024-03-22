@@ -2,5 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Gotu";
+    text-decoration: none;
 }
 
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.fondo{
+    background-color: #05444D;
+    color:aliceblue
+}
+
+.anchor{
+    color:aliceblue;
+    font-weight: bolder;
+}
