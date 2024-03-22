@@ -24,6 +24,8 @@ html {
     background-color: var(--light-verdeazul);
 }
 
+/* Header */
+
 #header{
     display: flex;
     justify-content: space-between;
@@ -41,17 +43,40 @@ html {
     margin-right: 10px;
 }
 
+/*Estrenos*/
+
+#estrenos-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.prox-estrenos{
+    font-weight: bolder;
+    width: 45%;
+}
+
+.prox-estrenos img{
+    width: 100%;
+    object-fit: fill;
+}
+
+/*Cartelera*/
+
 .titulo-seccion{
     text-align: center;
     padding: 20px 0;
     color: var(--verdeazul);
 }
 
-#cartelera{
+#cartelera-section{
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
 }
 
 .pelicula{
