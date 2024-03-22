@@ -105,13 +105,15 @@
             </article>
             <article class="pelicula">
                 <img class="imagen" src="https://pics.filmaffinity.com/10_Lives-494141302-large.jpg" alt="10 Lives">
+                <div class="info-pelicula">
                 <h3 class="titulo"> 10 Lives (2024) </h3>
-                <p><span class="subtitulo">Duración: </span>1h 28m</p>
-                <p><span class="subtitulo">Género: </span>Infantil/Comedia</p>
-                <p><span class="subtitulo">Sinopsis: </span>Cuando la Dra. Rose Everhart se encuentra con un gatito
-                    callejero en el camino, ella decide llevarlo a casa después de llevarlo a un refugio de animales.
-                    Pronto desarrollan un vínculo estrecho, pero un día, Beckett se acerca a perder su novena vida.</p>
-                <button class="comprar"> <a href="https://www.bancolombia.com/personas" target="_blank">Comprar entradas</a> </button>
+                    <p><span class="subtitulo">Duración: </span>1h 28m</p>
+                    <p><span class="subtitulo">Género: </span>Infantil/Comedia</p>
+                    <p><span class="subtitulo">Sinopsis: </span>Cuando la Dra. Rose Everhart se encuentra con un gatito
+                        callejero en el camino, ella decide llevarlo a casa después de llevarlo a un refugio de animales.
+                        Pronto desarrollan un vínculo estrecho, pero un día, Beckett se acerca a perder su novena vida.</p>
+                        <button class="comprar"> <a href="https://www.bancolombia.com/personas" target="_blank">Comprar entradas</a> </button>
+                </div>
             </article>
             <article class="pelicula">
                 <img class="imagen"
@@ -181,6 +183,26 @@
                     </button>
                 </div>
             </article>
+        </section>
+        <section id="contacto">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <form action="/" method="post">
+                <legend class="texto-centrado"> ¿Tienes alguna duda o comentario?</legend>
+                <p class="texto-centrado">¡Contáctanos! </p>
+                <fieldset class="campo">
+                    <label for="nombre" name="nombre">Nombre:</label>
+                    <input type="text" class="input" name="nombre" id="nombre" placeholder="Escriba su nombre aquí" required>
+                </fieldset>
+                <fieldset class="campo">
+                    <label for="correo">Correo: </label>
+                    <input type="email" class="input" name="correo" id="correo" required placeholder="ejemplo@correo.com">
+                </fieldset>
+                <fieldset class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea required class="input" name="mensaje" id="mensaje" cols="20" rows="5" placeholder="Escriba aquí su mensaje"></textarea>
+                </fieldset>
+                <button type="submit" id="enviar">Enviar</button>
+            </form>
         </section>
 
     </main>

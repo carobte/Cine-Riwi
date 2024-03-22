@@ -7,6 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Gotu";
+    border: none;
 }
 
 :root{
@@ -111,12 +112,55 @@ html {
     background-color: var(--azul);
     border: 2px solid var(--verdeazul);
     border-radius: 5px;
+    padding: 3px;
 }
 
 .comprar a{
     color: var(--verdeazul);
     font-weight: bolder;
 }
+
+/*Formulario contacto*/
+
+#contacto {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+.campo{
+    margin: 10px 0;
+
+}
+
+.input{
+    border: 2px solid var(--azul);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input:focus{
+    outline: 2px solid var(--verdeazul);
+}
+
+#enviar{
+    background-color: var(--azul);
+    border: 2px solid var(--verdeazul);
+    border-radius: 5px;
+    font-weight: bolder;
+    color: var(--verdeazul);
+    padding: 10px;
+    width: 50%;
+    margin: 0 25%;
+}
+
+
+
 
 
 
