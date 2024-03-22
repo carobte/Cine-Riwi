@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explora nuestra emocionante cartelera de cine con los últimos estrenos, horarios de proyección, críticas y más. ¡Compra tus entradas y reserva tus asientos para disfrutar de las mejores películas en pantalla grande!" />
-    <meta name="keywords" content="Películas, Cartelera, Cine, Estrenos, Proyecciones, Horarios, Taquilla, Reservas, Géneros, Críticas">
+    <meta name="description"
+        content="Explora nuestra emocionante cartelera de cine con los últimos estrenos, horarios de proyección, críticas y más. ¡Compra tus entradas y reserva tus asientos para disfrutar de las mejores películas en pantalla grande!" />
+    <meta name="keywords"
+        content="Películas, Cartelera, Cine, Estrenos, Proyecciones, Horarios, Taquilla, Reservas, Géneros, Críticas">
     <meta name="sidedomain" content="https://github.com/carobte/cine-riwi">
     <meta name="organization" content="carobte">
     <meta name="author" content="Carolina Bustamante Escobar">
@@ -15,27 +17,88 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="15days">
     <link rel="stylesheet" href="./src/css/styles.css">
-    <!-- Iconos -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Icono -->
     <link rel="shortcut icon" href="./public/img/film.svg">
-    <!-- Importar fuente -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
     <title> Cine Riwi</title>
 </head>
 
 <body>
     <header id="header" class="fondo">
-        <a class="anchor" href="./"><h2>Cine Riwi</h2></a>
+        <a class="anchor" href="./">
+            <h1>Cine Riwi</h1>
+        </a>
         <nav>
-            <a class="anchor" href="/"><i class="bi bi-camera-reels"></i> Estrenos</a>
-            <a class="anchor" href="/"><i class="bi bi-film"></i> Cartelera</a>
-            <a class="anchor" href="/"><i class="bi bi-telephone"></i> Contacto</a>
+            <a class="anchor" href="#estrenos"><i class="bi bi-camera-reels"></i> <span>Estrenos</span> </a>
+            <a class="anchor" href="#cartelera"><i class="bi bi-film"></i> <span>Cartelera</span></a>
+            <a class="anchor" href="#contacto"><i class="bi bi-telephone"></i> <span>Contacto</span> </a>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main id="main">
+        <h2 class="titulo-seccion"> Cartelera </h2>
+        <section id="cartelera">
+            <article class="pelicula">
+                <img class="imagen"
+                    src="https://pics.filmaffinity.com/Godzilla_y_Kong_El_nuevo_imperio-478803486-large.jpg"
+                    alt="Godzilla y Kong: El nuevo imperio">
+                <h3 class="titlo"> Godzilla y Kong: El nuevo imperio (2024) </h3>
+                <p><span class="subtitulo">Duración: </span>1h 55m</p>
+                <p><span class="subtitulo">Género: </span>Acción/Ciencia Ficción</p>
+                <p><span class="subtitulo">Sinopsis: </span>Godzilla y Kong se enfrentan a una amenaza colosal escondida
+                    en lo profundo del planeta, desafiando su propia existencia y la supervivencia de la raza humana.
+                </p>
+                <button class="comprar"> <a href="https://www.bancolombia.com/personas">Comprar entradas</a> </button>
+            </article>
+            <article class="pelicula">
+                <img class="imagen"
+                    src="https://dx35vtwkllhj9.cloudfront.net/universalstudios/kung-fu-panda-4/images/regions/us/onesheet.jpg"
+                    alt="Kung Fu Panda 4 (2024)">
+                <h3 class="titlo"> Kung Fu Panda 4 (2024) </h3>
+                <p><span class="subtitulo">Duración: </span>1h 34m</p>
+                <p><span class="subtitulo">Género: </span>Comedia/Aventura</p>
+                <p><span class="subtitulo">Sinopsis: </span>Después de tres aventuras mortales y de derrotar a villanos
+                    de clase mundial con su coraje incomparable y sus locas habilidades en artes marciales, Po, el
+                    Guerrero Dragón (Omar Chaparro), es convocado por el destino</p>
+                <button class="comprar"> <a href="https://www.bancolombia.com/personas">Comprar entradas</a> </button>
+            </article>
+            <article class="pelicula">
+                <img class="imagen" src="https://pics.filmaffinity.com/Arthur-305186923-large.jpg"
+                    alt="Arthur the King">
+                <h3 class="titulo"> Arthur the King (2024) </h3>
+                <p><span class="subtitulo">Duración: </span>1h 46m</p>
+                <p><span class="subtitulo">Género: </span>Acción/Ciencia Ficción</p>
+                <p><span class="subtitulo">Sinopsis: </span>Michael Light y su equipo compiten en un campeonato mundial
+                    de aventuras extremas. En el momento de mayor desesperación, cuando las fuerzas y la moral parecen
+                    haber desaparecido, surge un perro que los hará reinterpretar el significado de victoria.</p>
+                <button class="comprar"> <a href="https://www.bancolombia.com/personas">Comprar entradas</a> </button>
+            </article>
+            <article class="pelicula">
+                <img class="imagen" src="https://pics.filmaffinity.com/10_Lives-494141302-large.jpg" alt="10 Lives">
+                <h3 class="titulo"> 10 Lives (2024) </h3>
+                <p><span class="subtitulo">Duración: </span>1h 28m</p>
+                <p><span class="subtitulo">Género: </span>Infantil/Comedia</p>
+                <p><span class="subtitulo">Sinopsis: </span>Cuando la Dra. Rose Everhart se encuentra con un gatito
+                    callejero en el camino, ella decide llevarlo a casa después de llevarlo a un refugio de animales.
+                    Pronto desarrollan un vínculo estrecho, pero un día, Beckett se acerca a perder su novena vida.</p>
+                <button class="comprar"> <a href="https://www.bancolombia.com/personas">Comprar entradas</a> </button>
+
+            </article>
+            <article class="pelicula">
+                <img class="imagen"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSskSwDP3BaZqhEytTix-Kdz2Bs840Vls-E-i6JxaV56lBYMJNM"
+                    alt="Duna: parte dos">
+                <h3 class="titulo"> Duna: parte dos (2024) </h3>
+                <p><span class="subtitulo">Duración: </span>2h 46m</p>
+                <p><span class="subtitulo">Género: </span>Ciencia ficción/Aventura</p>
+                <p><span class="subtitulo">Sinopsis: </span>Paul Atreides se une a Chani y a los Fremen mientras busca
+                    venganza contra los conspiradores que destruyeron a su familia. Paul se enfrenta a una elección
+                    entre el amor de su vida y el destino del universo, y debe evitar un futuro terrible.
+                </p>
+                <button class="comprar"> <a href="https://www.bancolombia.com/personas">Comprar entradas</a> </button>
+            </article>
+        </section>
+
+    </main>
+    <footer class="fondo"></footer>
 </body>
 
 </html>
