@@ -13,6 +13,7 @@
     --verdeazul: #05444D;
     --blanco: #FFFFFF; 
     --light-verdeazul: #97e8f33b;
+    --azul: #16a7c479;
 }
 
 html {
@@ -28,7 +29,6 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border-radius: 10px 10px 0px 0px;
 }
 
 .fondo{
@@ -43,21 +43,22 @@ html {
 
 .titulo-seccion{
     text-align: center;
-    padding-top: 20px;
+    padding: 20px 0;
+    color: var(--verdeazul);
 }
 
 #cartelera{
     display: flex;
     justify-content: space-evenly;
+    gap: 20px;
     flex-wrap: wrap;
-    padding: 20px;
 }
 
 .pelicula{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     width: 300px;
 }
 
@@ -65,16 +66,32 @@ html {
     font-weight: bolder;
 }
 
+.info-pelicula{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 400px;
+}
+
 .imagen{
     border-radius: 10px;
-    width: 300px
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
 }
 
 .comprar{
     width: 70%;
     margin: auto;
+    background-color: var(--azul);
+    border: 2px solid var(--verdeazul);
+    border-radius: 5px;
 }
 
+.comprar a{
+    color: var(--verdeazul);
+    font-weight: bolder;
+}
 
 
 
