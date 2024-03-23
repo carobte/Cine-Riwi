@@ -11,10 +11,11 @@
 }
 
 :root{
-    --verdeazul: #05444D;
+    --verdeazul: #05444d;
     --blanco: #FFFFFF; 
     --light-verdeazul: #97e8f33b;
     --azul: #16a7c479;
+
 }
 
 html {
@@ -92,13 +93,6 @@ html {
     font-weight: bolder;
 }
 
-.info-pelicula{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    height: 400px;
-}
-
 .imagen{
     border-radius: 10px;
     width: 300px;
@@ -109,14 +103,15 @@ html {
 .comprar{
     width: 70%;
     margin: auto;
-    background-color: var(--azul);
-    border: 2px solid var(--verdeazul);
+    background-color: var(--verdeazul);
+    border: 3px double var(--blanco);
     border-radius: 5px;
     padding: 3px;
+    
 }
 
 .comprar a{
-    color: var(--verdeazul);
+    color: var(--blanco);
     font-weight: bolder;
 }
 
@@ -142,10 +137,11 @@ align-items: center;
     border: 2px solid var(--azul);
     border-radius: 5px;
     width: 100%;
+    padding: 5px 10px;
 }
 
 .input:focus{
-    outline: 2px solid var(--verdeazul);
+    outline: 2px solid var(--azul);
 }
 
 #enviar{
