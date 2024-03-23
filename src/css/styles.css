@@ -24,6 +24,7 @@ html {
 
 #main{
     background-color: var(--light-verdeazul);
+    padding-bottom: 25px;
 }
 
 /* Header */
@@ -130,7 +131,6 @@ align-items: center;
 
 .campo{
     margin: 10px 0;
-
 }
 
 .input{
@@ -153,6 +153,21 @@ align-items: center;
     padding: 10px;
     width: 50%;
     margin: 0 25%;
+}
+
+/*Footer*/
+
+#footer{
+    color: var(--blanco);
+    font-weight: bolder;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#footer a{
+    text-decoration: underline;
+    color: var(--blanco);
+    font-weight: bolder;
 }
 
 
