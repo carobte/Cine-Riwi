@@ -12,6 +12,7 @@
 
 :root{
     --verdeazul: #05444d;
+    --dark-azul: #1f3b3f;
     --blanco: #FFFFFF; 
     --light-verdeazul: #97e8f33b;
     --azul: #16a7c479;
@@ -152,11 +153,10 @@ align-items: center;
 }
 
 #enviar{
-    background-color: var(--azul);
-    border: 2px solid var(--verdeazul);
+    background-color: var(--dark-azul);
     border-radius: 5px;
     font-weight: bolder;
-    color: var(--verdeazul);
+    color: var(--blanco);
     padding: 10px;
     width: 50%;
     margin: 0 25%;
@@ -176,10 +176,3 @@ align-items: center;
     color: var(--blanco);
     font-weight: bolder;
 }
-
-
-
-
-
-
-
