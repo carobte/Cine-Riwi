@@ -39,6 +39,10 @@ html {
     width: 100%;
 }
 
+#header + #main{
+    padding-top: 50px;
+}
+
 .fondo{
     background-color: var(--verdeazul);
 }
